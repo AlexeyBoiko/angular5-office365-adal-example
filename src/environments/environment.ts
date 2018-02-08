@@ -3,6 +3,18 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
+
 export const environment = {
-  production: false
+  production: false,
+
+  adalConfig: {
+    tenant: 'XXX.onmicrosoft.com',
+    clientId: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
+    postLogoutRedirectUri: window.location.origin,
+    endpoints: {
+      graphApiUri: 'https://graph.microsoft.com',
+    },
+    cacheLocation: 'localStorage',
+    redirectUri:`${window.location.origin}/frame-redirect`
+  }
 };
