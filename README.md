@@ -10,3 +10,10 @@ Example use only standard [Adal.js](https://github.com/AzureAD/azure-activedirec
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+
+## To make it working
+
+- set your tenant, and clientId in environments/environment.ts
+- setup Replay URLs in Azure portal
+
+![Replay URLs](https://i.imgur.com/qcym6os.png)
