@@ -13,7 +13,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To make it working
 
-- set your tenant, and clientId in environments/environment.ts
-- setup Replay URLs in Azure portal
+- setup Replay URLs in Azure portal for your app
 
 ![Replay URLs](https://i.imgur.com/qcym6os.png)
+
+- set «oauth2AllowImplicitFlow»: true in your app manifest
+
+![Replay URLs](https://hsto.org/getpro/habr/post_images/a8c/006/3e7/a8c0063e715f028d87c699b509c077a1.png)
+
+- give permissions to Microsoft Graph API
+
+![Replay URLs](https://habrastorage.org/getpro/habr/post_images/577/90d/18d/57790d18d896fc12f972e381e7cee382.png)
+
+- set your tenant, and clientId in environments/environment.ts
